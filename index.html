@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mobile First Site</title>
+        <!-- para cargar iconos de Linkedin y Github -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <!-- AQUI SE CARGA BOOSTRAP -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-portafolio">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#sobreMi">Sobre Mí</a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page"
+                                href="#contenedor3">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="#contenedor4">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formulario">Contacto</a>
+                        </li>
+                        <li class="nav-item action-download">
+                            <a class="nav-link navbar-buttonpdf"
+                                href="path/to/your-file.pdf"
+                                download="filename.pdf">Descargar
+                                curriculum</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item action-download">
+                            <button class="btn navbar-buttonpdf "
+                                onclick="window.location.href='path/to/your-file.pdf';">Descargar
+                                curriculum
+                            </button>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="dashboard">
+
+            <div id="contenedor1" class="container">
+
+                <div class="item">
+                    <div class="container-md text-white mt-5 p-5">
+                        <div
+                            class="card mb-3 border-0 bg-transparent text-white"
+                            style="text-align: center; ">
+                            <div>
+                                <img
+                                    src="https://lastfm.freetls.fastly.net/i/u/770x0/57ef79fc6eade884c97bb284ff0ff9e1.jpg#57ef79fc6eade884c97bb284ff0ff9e1"
+                                    class="card-img-top img-fluid rounded-pill"
+                                    style="width: 300px;" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h1 id="tituloInicio"
+                                    class="card-title">Carlos<br>
+                                    Guzmán</h1>
+                                <h3
+                                    class="fw-light mt-3 mb-2">Desarrollador
+                                    Fullstack Trainee</h3>
+
+                                <div class="redes mt-3 mb-3">
+                                    <a
+                                        href="https://www.linkedin.com/in/carlos-guzman-4a2479244/"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                    <a
+                                        href="https://github.com/Rocket126" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div><!-- fin container -->
+
+            <!-- CONTENEDOR 2 sobre mi-->
+            <div class="container" id="contenedor2">
+                <div class="item ">
+
+                    <div id="sobreMi"
+                        class="card mb-3 bg-transparent text-white border-0">
+                        <div class="card-body">
+                            <h5
+                                class="card-title fs-1 text-center ">Sobre
+                                Mí</h5>
+                            <p class="card-text p-3">Hola soy Carlos
+                                Guzmán
+                                un Desarrollador de Software Trainee.
+                                la programacion y los desafios me
+                                motivan
+                                cada dia. Actualmente me estoy
+                                especializando como desarrollador
+                                backend y front-end. Disfruto desafiando
+                                los
+                                limites y explorando nuevas tecnologias
+                                para
+                                ofrecer soluciones creativas.
+                                Soy responsable y honesto, organizado.
+                                Finalmente vivo en Chile en la Octava
+                                Region.
+                            </p>
+                            <p class="card-text p-3">Las tecnologias que
+                                estoy practicando altualmente son
+                                Javascript, CSS, Java y SQL entre
+                                algunas.
+                                Con capacidad de diseñar, me adapto a
+                                las
+                                necesidades del equipo y me comprometo
+                                con
+                                los objetivos de trabajo establecidos.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div><!--fin item  -->
+            </div>
+
+            <!-- Contenedor Habilidades -->
+
+            <div class="container" id="contenedor3">
+                <div class="item" >
+                    
+
+                        <div class="row " >
+                            <div class="col col-md-12 col-lg-12 text-center">
+                                <div class="text-white mb-5">
+                                    <h1>HABILIDADES</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- align-items-center justify-content-center -->
+
+                        <divn class="row  justify-content-center" >
+                            <div class="col-4  col-sm-6 col-md-12 col-lg-12 ">
+                                <div class="tarjetas " >
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-css-100.png"
+                                            
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">CSS3</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas " >
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-git-100.png"
+                                           
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">GIT</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-github-100 (1).png"
+                                            
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">GITHUB</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-html5-100ok.png"
+                                            
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">HTML5</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-javascript-100.png"
+                                            
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">JAVASCRIPT</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-jquery-yellow.png"
+                                           
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">JQUERY</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-sql-100.png"
+                                            
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">SQL</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-oreja-100.png"
+                                            
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">BOOTSTRAP</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-logotipo-de-primavera-100.png"
+                                            
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">SPRINGBOOT</p>
+
+                                    </p>
+                                </div>
+
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="img/icons8-logotipo-de-java-coffee-cup-100 (1).png"
+                                            
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">JAVA</p>
+
+                                    </p>
+                                </div>
+
+                            </div>
+
+                           
+
+                            <!-- <div class=" col-2 col-sm-2 col-md-2 col-lg-2 ">
+                               
+
+                            </div>
+                           
+
+                            <div class=" col-2 col-sm-2 col-md-2 col-lg-2  ">
+                                
+
+                            </div>
+                            
+                            <div class=" col-2 col-sm-2 col-md-2 col-lg-2 ">
+                                
+
+
+
+                            </div>
+                            
+
+                            <div class="col-2 col-sm-2 col-md-2 col-lg-2 ">
+                                
+
+
+                            </div> -->
+                           
+
+                        </div> <!-- fin segunda fila  -->
+                    </div>
+
+                
+            </div><!--fin container-->
+
+        <!-- <div class="container" id="contenedor3">
+                <div class="item">
+                    <div class="container">
+
+                        <div class="row text-center">
+                            <div class="col-12">
+                                <div class="text-white mb-5">
+                                    <h1>HABILIDADES</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="row align-items-center justify-content-center">
+                            <div class="col-1 ">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-css-100.png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">CSS3</p>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1 ">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-git-100.png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">GIT</p>
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-1 ">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-github-100 (1).png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">GITHUB</p>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1 ">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-html5-100ok.png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">HTML5</p>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1 ">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-javascript-100.png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">JAVASCRIPT</p>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-jquery-yellow.png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">JQUERY</p>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-sql-100.png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">SQL</p>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-oreja-100.png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">bOOTSTRAP</p>
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-1">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-logotipo-de-primavera-100.png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">SPRINGBOOT</p>
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="tarjetas ">
+                                    <p>
+
+                                        <img
+                                            src="assets/img/icons8-logotipo-de-java-coffee-cup-100 (1).png"
+                                            style="width:100%; "
+                                            class="card-img-top"
+                                            alt="CSS">
+                                        <p class="mt-2 ">JAVA</p>
+
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div> fin segunda fila 
+                    </div>fin container interno 
+
+                </div>
+                fin item 
+
+            </div>-->
+
+            <!-- CONTENEDOR 4 -->
+            <div class="container " id="contenedor4">
+
+                <div class="item">
+                    <div
+                        class="tituloProyectos p-3 text-center"><h1>PROYECTOS</h1></div>
+
+                    <div id="carouselExampleAutoplaying"
+                        class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/image.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="img/Screenshot_2024-07-20_163034.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="img/505shots_so_nuevo.jpg"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                aria-hidden="true"></span>
+                            <span
+                                class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+
+            <div class="container " id="formularioFooter">
+                <div class="item ">
+
+                    <div class="h1footer"><h1>Contacto</h1></div>
+
+                    <form class="row g-3 " id="formulario" action="">
+
+                        <div class="col-md-6">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre"
+                                placeholder="Alan Brito" required maxlength="41" min="4">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="correo@correo.com" required maxlength="40">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="mensaje"
+                                class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje"
+                                placeholder="Tu mensaje" required
+                                maxlength="70"></textarea>
+                        </div>
+
+                        <div class="col-12 text-center p-2">
+                            <p><button onclick="validar()" type="submit" data-bs-toggle="modal"
+                                    class="btn btn-primary">Enviar</button></p>
+                            <div id="mensajeEnviado" class="alert alert-success"
+                                role="alert" style="display: none;">
+                                Mensaje enviado!. Te contactaré pronto.
+                            </div>
+
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+
+
+            <!-- Modal -->
+    
+        </footer>
+
+
+        <script src="js/logica.js"></script>
+        <!-- Aqui se carga Bootstrap JS el script que le da funcioanlidad  -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,246 @@
+body {
+    background-color: #4F1787;
+
+}
+
+.navbar-portafolio {
+    background-color: #3A1078;
+    color: white;
+}
+
+.navbar-brand,
+.nav-link, form {
+    color: white;
+}
+
+
+#contenedor1,#contenedor2,#contenedor3,#contenedor4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    /* background-color: orange; */
+    
+}
+
+.redes a {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #887979;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 0px 5px;
+    font-size: 20px;
+    transition: .3s;
+    text-align: center;
+}
+
+
+.navbar,footer{
+    background-color: #3A1078;
+}
+
+#sobreMi p{
+    /* color: #E76FF7; */
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    text-align:justify;
+    
+}
+
+#sobreMi{
+            
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tarjetas,.tituloProyectos{
+    text-align: center;
+    color:white;
+}
+.tarjetas{
+    display: inline-block;
+    margin: 7px;
+}
+
+.h1footer{
+    text-align: center;
+    color:white;
+    margin-bottom: 10%;
+}
+
+#formulario{
+    border-radius: 8px;
+    border: solid white 2px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+
+
+#formularioFooter{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    
+    
+}
+
+
+#contenedor3 img{
+    width: 50px;
+    
+}
+
+
+
+
+/* Estilo para el botón del menu */
+.navbar-toggler-icon {
+    background-image: none;
+    /* Elimina el borde de fondo de fondo predeterminada */
+}
+
+.navbar-toggler {
+    border-color: transparent;
+    /* Elimina el borde del botón del menu */
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    /* Elimina el sombreado en el foco del botón del menu */
+}
+
+.navbar-toggler .navbar-toggler-icon::before {
+    content: '\2630';
+    font-size: 24px;
+    color: white;
+}
+
+.action-download a {
+    display: block;
+}
+
+.action-download button {
+    display: none;
+}
+
+
+
+
+
+/* Estilos para desktop */
+@media (min-width: 992px) {
+
+    .action-download a {
+        display: none;
+    }
+
+    .action-download button {
+        display: block;
+    }
+
+    .navbar-buttonpdf {
+        color: white;
+        background-color: #a466e3;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    .navbar-buttonpdf:hover {
+        background-color: #3e1d60;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width:991px){
+
+    .action-download a {
+        display: none;
+    }
+
+    .action-download button {
+        display: block;
+    }
+
+    .navbar-buttonpdf {
+        color: white;
+        background-color: #a466e3;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    .navbar-buttonpdf:hover {
+        background-color: #3e1d60;
+    }
+   
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+    .action-download a {
+        display: none;
+    }
+
+    .action-download button {
+        display: block;
+    }
+
+    .navbar-buttonpdf {
+        color: white;
+        background-color: #a466e3;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    .navbar-buttonpdf:hover {
+        background-color: #3e1d60;
+    }
+
+   
+}
+/* pantallla telefono */
+@media (max-width:575px){
+
+    .action-download a {
+        display: none;
+    }
+
+    .action-download button {
+        display: block;
+    }
+
+    .navbar-buttonpdf {
+        color: white;
+        background-color: #a466e3;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    .navbar-buttonpdf:hover {
+        background-color: #3e1d60;
+    }
+
+    
+
+}
